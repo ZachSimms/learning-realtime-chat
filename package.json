@@ -1,0 +1,24 @@
+{
+  "name": "realtime-chat",
+  "version": "1.0.0",
+  "description": "Realtime chat app — Next.js 16, WorkOS AuthKit, Neon/Drizzle, and Ably.",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm -C apps/frontend dev",
+    "build": "pnpm -C apps/frontend build",
+    "start": "pnpm -C apps/frontend start",
+    "lint": "pnpm -C apps/frontend lint",
+    "test": "pnpm -C apps/frontend test"
+  },
+  "keywords": [
+    "nextjs",
+    "ably",
+    "workos",
+    "neon",
+    "drizzle",
+    "realtime-chat"
+  ],
+  "author": "Zachary Simms",
+  "license": "MIT",
+  "packageManager": "pnpm@11.24.0"
+}
